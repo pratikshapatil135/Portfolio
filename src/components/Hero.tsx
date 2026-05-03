@@ -2,8 +2,10 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section id="home" className="snap-section flex items-center justify-center">
-
+    <section
+      id="home"
+      className="snap-section min-h-screen flex items-center justify-center pt-24"
+    >
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -11,18 +13,13 @@ const Hero = () => {
         className="text-center"
       >
         <h1 className="text-6xl font-bold">
-          Hi, I’m <span className="text-purple-400">Pratiksha</span>
+          Hi, I’m <span className="text-purple-400">Pratiksha Patil</span>
         </h1>
 
         <p className="text-white/60 mt-4">
-          Computer Engineering Student • Frontend Developer
+          Frontend Developer • Computer Engineering Student
         </p>
-
-        <button className="mt-6 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-full">
-          View Projects
-        </button>
       </motion.div>
-
     </section>
   );
 };

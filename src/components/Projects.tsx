@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 const projects = [
   {
     name: "Portfolio Website",
-    desc: "Modern animated portfolio with React",
+    desc: "A modern personal portfolio built with React and Tailwind CSS featuring dark mode, animations, and responsive layout.",
   },
   {
     name: "To-Do App",
-    desc: "Task management application",
+    desc: "A task management app with add, delete, and filter features to improve productivity.",
   },
 ];
 

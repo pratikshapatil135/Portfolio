@@ -8,6 +8,9 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import ParticlesBackground from "./components/ParticlesBackground";
+import About from "./components/About";
+import Navbar from "./components/Navbar";
+import SocialLinks from "./components/SocialLinks";
 
 
 
@@ -20,14 +23,15 @@ const App = () => {
       <div className="fixed top-20 left-10 w-[400px] h-[400px] bg-purple-600/30 blur-[120px] rounded-full -z-10" />
       <div className="fixed bottom-10 right-10 w-[400px] h-[400px] bg-blue-600/30 blur-[120px] rounded-full -z-10" />
 
-
+     
        <ParticlesBackground/>
       <Hero />
-   
-   
+   <Navbar />
+   <About />
       <Experience />
       <Projects />
       <Skills />
+       <SocialLinks/>
       <Contact />
       <Footer />
     </div>
