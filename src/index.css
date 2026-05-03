@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background: black;
+  color: white;
+}
+.snap-section {
+  scroll-snap-align: start;
+  transition: all 0.6s ease;
+}
+
+.snap-section:not(:hover) {
+  filter: blur(1px);
+  opacity: 0.8;
+}
+
+.snap-section:hover {
+  filter: blur(0px);
+  opacity: 1;
+}
